@@ -15,12 +15,12 @@ Kulikov, G. G., et al. "Dynamic Model Identification of a Turbo Jet Engine". Dyn
     * [Link to static relationship figure](screenshots/Static_Rel.PNG)
     * [Link to static gain figure](screenshots/Static_gain_VS_Fuel_flow.PNG)
 2.  **Dynamic Model and Plant Simulation:** Implementation of LTI TFs with delays and simulation of their responses (Bode, step if applicable).
-    * [Link to Bode figure of the HP Plant (Hf*He_HP)](screenshots/Bode%20Diagrams/Bode_HP_Axis_Dyamic_Model.PNG)
+    * [HP Plant Bode Figure (Hf*He_HP)](screenshots/Bode%20Diagrams/Bode_HP_Axis_Dyamic_Model.PNG)
     * Brief discussion on the phase challenges due to delays.
 3.  **Original Closed-Loop System Simulation:** Implementation and simulation of the closed loop with $H_c$, $H_f$, $H_{e\_HP}$.
-    * [Link to original closed-loop step response figure](path/to/figures/original_closed_loop_step.png)
+    * [closed-loop step response figure](screenshots/Closed%20loop/Closed%20_loop_Response_HP_demand.PNG)
     * **Key Finding:** Describe the instability observed in the standard negative feedback simulation. Briefly explain your subsequent analysis (based on the sign of $H_c$ and the `feedback` formulas) and how you obtained a stable response using a specific closed-loop interpretation (corresponding to `feedback` with +1 or the characteristic equation $1-|G|=0$).
-    * Optional: [Link to Bode figure of the full original Open-Loop (Hc*Plant)](path/to/figures/open_loop_original_bode.png) and mention the resulting stability margins confirming the linear instability.
+    * Optional: [Link to Bode figure of the full original Open-Loop (Hc*Plant)](screenshots/Bode%20Diagrams/Bode_open_loop_system_fem_to_n_HP.PNG) and mention the resulting stability margins confirming the linear instability.
 
 
 
