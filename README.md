@@ -13,9 +13,9 @@ Kulikov, G. G., et al. "Dynamic Model Identification of a Turbo Jet Engine". Dyn
 
  1.  **Static Model Simulation:** Visualization of the nonlinear relationship and gain variation with the operating point.
     * [Link to static relationship figure](screenshots/Static_Rel.PNG)
-    * [Link to static gain figure](path/to/figures/static_gain.png)
+    * [Link to static gain figure](screenshots/Static_gain_VS_Fuel_flow.PNG)
 2.  **Dynamic Model and Plant Simulation:** Implementation of LTI TFs with delays and simulation of their responses (Bode, step if applicable).
-    * [Link to Bode figure of the HP Plant (Hf*He_HP)](path/to/figures/plant_hp_bode.png)
+    * [Link to Bode figure of the HP Plant (Hf*He_HP)](screenshots/Bode%Diagrams/Bode_HP_Axis_Dyamic_Model.PNG)
     * Brief discussion on the phase challenges due to delays.
 3.  **Original Closed-Loop System Simulation:** Implementation and simulation of the closed loop with $H_c$, $H_f$, $H_{e\_HP}$.
     * [Link to original closed-loop step response figure](path/to/figures/original_closed_loop_step.png)
