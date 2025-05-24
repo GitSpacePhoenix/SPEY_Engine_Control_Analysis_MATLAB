@@ -12,7 +12,7 @@ Kulikov, G. G., et al. "Dynamic Model Identification of a Turbo Jet Engine". Dyn
     * Engine LP Dynamics ($H_{e\_LP}(s)$)
 
  1.  **Static Model Simulation:** Visualization of the nonlinear relationship and gain variation with the operating point.
-    * [Link to static relationship figure](path/to/figures/static_relationship.png)
+    * [Link to static relationship figure](screenshots/Static_Rel.PNG)
     * [Link to static gain figure](path/to/figures/static_gain.png)
 2.  **Dynamic Model and Plant Simulation:** Implementation of LTI TFs with delays and simulation of their responses (Bode, step if applicable).
     * [Link to Bode figure of the HP Plant (Hf*He_HP)](path/to/figures/plant_hp_bode.png)
